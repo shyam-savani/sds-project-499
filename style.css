@@ -1,0 +1,40 @@
+body {
+  background: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #333;
+  padding: 25px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#strength-bar {
+  height: 8px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 4px;
+  background: #444;
+}
+
+#strength-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
